@@ -1,0 +1,23 @@
+{
+  "name": "tower_blaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run build && node build/game.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "prompt-sync": "^4.2.0",
+    "table": "^6.8.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/prompt-sync": "^4.2.0"
+  }
+}
