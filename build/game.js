@@ -275,6 +275,7 @@ class Game {
     }
 }
 function main() {
+    // Please reach out.
     // Set up new game
     const game = new Game();
     // Display instructions to the player
